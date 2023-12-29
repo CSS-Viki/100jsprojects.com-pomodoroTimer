@@ -30,7 +30,7 @@ function countDown() {
 
 function startTimer() {
   if (timerStatus === "stopped") {
-    timerInterval = setInterval(countDown, 1);
+    timerInterval = setInterval(countDown, 1000);
     timerStatus = "started";
   }
 }
